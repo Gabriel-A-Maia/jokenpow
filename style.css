@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(https://www.ocasaldafoto.com/wp-content/uploads/2018/09/Foto-de-Paisagem-Lago-da-Pampulha-Belo-Horizonte-Charles-Torres.jpg);
+    background-size:cover ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    
+
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 550px;
+}
+
+.buttons{
+    margin: 30px 0;
+    display: flex;
+    gap: 40px;
+}
+
+button{
+    padding: 10px;
+    font-size: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition:opacity 0.5s ease-in-out ;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+#rock{
+    background-color: #7a1a7a;
+}
+
+#paper{
+    background-color: #69d60f;
+}
+
+#scissors{
+    background-color: #6693bb;
+}
+
+p{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.your-score span{
+    color: rgb(91, 91, 199);
+}
+
+.machine-score span{
+    color: rgb(221, 76, 19);
+}
+
+
+section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin-left: auto;
+   margin-right: auto;
+}
+
+.emogi-human,
+.emogi-machine {
+    font-size: 50px;
+    margin: 0; /* remove os deslocamentos laterais */
+}
+
+.point-human,
+.point-machine {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* centraliza horizontalmente */
+    text-align: center;  /* centraliza o texto */
+}
+
+.point-human span,
+.point-machine span {
+    margin-bottom: 8px;
+}
+
+#human-choice,
+#machine-choice {
+    font-size: 20px;
+    color: #291010;
+}
