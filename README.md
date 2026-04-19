@@ -39,7 +39,8 @@ Neste projeto, foram aplicados conceitos importantes como:
 
 ## 📸 Preview
 
-*(adicione aqui um print do seu projeto depois)*
+<img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/7ffcfa5b-9b86-4d8b-8ac0-7543aee6efcc" />
+
 
 ---
 
