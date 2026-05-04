@@ -3,9 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-body{
-    background: url(https://www.ocasaldafoto.com/wp-content/uploads/2018/09/Foto-de-Paisagem-Lago-da-Pampulha-Belo-Horizonte-Charles-Torres.jpg);
+ 
+body{  
+    background: url(https://s1.best-wallpaper.net/wallpaper/m/1501/Canada-Ontario-winter-snow-footprints-trees-sunset_m.webp);
     background-size:cover ;
     display: flex;
     justify-content: center;
@@ -14,16 +14,24 @@ body{
 }
 
 .container{
-    
-
     padding: 20px;
-    background: white;
+     background-color: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 550px;
+
+
+    
+backdrop-filter: blur (10px);
+border-top: 1px solid rgba(255,255,255, 0.4);
+border-left: 1px solid rgba(255,255,255, 0.3);
+box-shadow: 3px 3px 3px rgba(0,0,0,0.089);
 }
 
 .buttons{
@@ -46,15 +54,15 @@ button:hover{
 }
 
 #rock{
-    background-color: #7a1a7a;
+    background-color: #01031b;
 }
 
 #paper{
-    background-color: #69d60f;
+    background-color: #629e8c;
 }
 
 #scissors{
-    background-color: #6693bb;
+    background-color: #252e36;
 }
 
 p{
@@ -63,7 +71,7 @@ p{
 }
 
 .your-score span{
-    color: rgb(91, 91, 199);
+    color: rgb(11, 11, 172);
 }
 
 .machine-score span{
@@ -102,5 +110,5 @@ section{
 #human-choice,
 #machine-choice {
     font-size: 20px;
-    color: #291010;
+    color: #000000;
 }
